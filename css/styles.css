@@ -80,6 +80,7 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /* -----------------HEADER----------------- */
 
 .header {
@@ -166,6 +167,9 @@ header .logo {
 /* -----------------HERO----------------- */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: #2f303a;
 }
 
@@ -173,8 +177,6 @@ header .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -230,7 +232,7 @@ header .logo {
 }
 
 .features-item-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   font-size: 14px;
   line-height: 1.14;
@@ -289,6 +291,10 @@ header .logo {
   margin-right: 0;
 }
 
+.team-wrapper {
+  padding: 30px 5px;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -296,7 +302,6 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--title-color);
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -307,7 +312,6 @@ header .logo {
   letter-spacing: 0.03em;
   color: var(--text-color);
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* -----------------PORTFOLIO----------------- */
@@ -315,6 +319,7 @@ header .logo {
 .portfolio-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio-item {
@@ -325,7 +330,6 @@ header .logo {
 }
 
 .portfolio-btn {
-  margin-bottom: 50px;
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
@@ -375,12 +379,13 @@ header .logo {
 }
 
 .portfolio-cards-bottom {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
 .portfolio-cards-title {
-  padding: 20px 24px 2px;
+  margin-bottom: 4px;
 
   font-size: 18px;
   line-height: 2;
@@ -389,8 +394,6 @@ header .logo {
 }
 
 .portfolio-cards-text {
-  padding: 2px 24px 20px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -400,6 +403,8 @@ header .logo {
 /* -----------------FOOTER----------------- */
 
 .footer {
+  padding: 60px 0;
+
   background-color: #2f303a;
 }
 
@@ -408,12 +413,11 @@ header .logo {
 }
 footer .logo {
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.address-list {
-  padding-bottom: 60px;
+.address {
+  font-style: normal;
 }
 
 .address-item {
@@ -428,8 +432,6 @@ footer .logo {
 }
 
 .address-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
